@@ -1,7 +1,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-part 'user_entity.freezed.dart';
-part 'user_entity.g.dart';
+part '../user_entity.freezed.dart';
+part '../user_entity.g.dart';
 
 @freezed
 sealed class User with _$User {
