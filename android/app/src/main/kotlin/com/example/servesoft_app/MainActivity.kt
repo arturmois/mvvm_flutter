@@ -1,4 +1,4 @@
-package com.example.mvvm_flutter
+package com.example.servesoft_app
 
 import io.flutter.embedding.android.FlutterActivity
 

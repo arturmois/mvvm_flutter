@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
 import 'package:result_dart/result_dart.dart';
 
-class ClienteHttp {
+class ClientHttp {
   final Dio _dio;
 
-  ClienteHttp(this._dio);
+  ClientHttp(this._dio);
 
   AsyncResult<Response> get(String url) async {
     try {
